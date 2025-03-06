@@ -21,14 +21,6 @@ resource app 'Microsoft.Web/sites@2024-04-01' = {
   properties: {
     serverFarmId: appserviceplan.id
     httpsOnly: true
-    siteConfig: {
-      appSettings: [
-        {
-          name: 'WEBSITE_NODE_DEFAULT_VERSION'
-          value: '~20'
-        }
-      ]
-    }
   }
 }
 
