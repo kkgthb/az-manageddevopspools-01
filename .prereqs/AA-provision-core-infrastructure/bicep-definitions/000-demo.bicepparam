@@ -9,4 +9,3 @@ param devCenterProjectName = '${solutionName}-dcp-${envNickname}'
 param managedDevOpsPoolName = '${solutionName}-mdp-${envNickname}'
 param adoOrganizationName = readEnvironmentVariable('DEMOS_my_ado_org_name')
 param adoProjectName = readEnvironmentVariable('DEMOS_my_ado_project_name')
-//var cicdServicePrincipalDisplayName = readEnvironmentVariable('DEMOS_my_favorite_workload_identity_display_name')

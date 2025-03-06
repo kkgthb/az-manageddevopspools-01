@@ -6,7 +6,7 @@ param dcpId string
 param adoOrgName string
 param adoProjName string
 
-resource symbolicname 'Microsoft.DevOpsInfrastructure/pools@2025-01-21' = {
+resource mdp 'Microsoft.DevOpsInfrastructure/pools@2025-01-21' = {
   name: mdpName
   location: mdpLocation
   properties: {
